@@ -1,0 +1,17 @@
+{
+  "selected": {
+    "name": "B_H5_W1008_P55_S0.5_C10_L3",
+    "model": 1,
+    "p0": 0.55,
+    "strength": 0.5,
+    "cap": 0.1,
+    "lam": 3.0
+  },
+  "H": 5,
+  "W": 1008,
+  "fit_qualified": false,
+  "qualified_count": 0,
+  "p_positive": 0.7238637941290011,
+  "lower10": -0.000665302975989248,
+  "uses_post2016": false
+}

@@ -1,0 +1,99 @@
+{
+  "solver_vs_slsqp": [
+    {
+      "gap": 3.2953050723804993e-10,
+      "independent_objective_error": 0.0
+    },
+    {
+      "gap": 4.4832157897103236e-11,
+      "independent_objective_error": 0.0
+    },
+    {
+      "gap": 0.0,
+      "independent_objective_error": 0.0
+    },
+    {
+      "gap": 0.0,
+      "independent_objective_error": 0.0
+    },
+    {
+      "gap": 0.0,
+      "independent_objective_error": 0.0
+    },
+    {
+      "gap": 0.0,
+      "independent_objective_error": 0.0
+    },
+    {
+      "gap": 0.0,
+      "independent_objective_error": 0.0
+    },
+    {
+      "gap": 0.0,
+      "independent_objective_error": 0.0
+    },
+    {
+      "gap": 5.415769461581191e-10,
+      "independent_objective_error": 2.168404344971009e-19
+    },
+    {
+      "gap": 0.0,
+      "independent_objective_error": 0.0
+    },
+    {
+      "gap": 0.0,
+      "independent_objective_error": 8.673617379884035e-19
+    },
+    {
+      "gap": 0.0,
+      "independent_objective_error": 4.336808689942018e-19
+    }
+  ],
+  "label_dates": {
+    "H5_W504": true,
+    "H5_W1008": true,
+    "H20_W504": true,
+    "H20_W1008": true
+  },
+  "accounts": {
+    "BAYES": {
+      "quantity_error": 5.684341886080802e-14,
+      "nav_error": 7.82310962677002e-08,
+      "no_untradable_fills": true,
+      "nonnegative_cash": true,
+      "no_same_close_fills": true
+    },
+    "BAYES_NOBAND": {
+      "quantity_error": 5.684341886080802e-14,
+      "nav_error": 9.685754776000977e-08,
+      "no_untradable_fills": true,
+      "nonnegative_cash": true,
+      "no_same_close_fills": true
+    },
+    "BUFFER": {
+      "quantity_error": 5.684341886080802e-14,
+      "nav_error": 1.2665987014770508e-07,
+      "no_untradable_fills": true,
+      "nonnegative_cash": true,
+      "no_same_close_fills": true
+    },
+    "BUFFER_BAND": {
+      "quantity_error": 5.684341886080802e-14,
+      "nav_error": 1.4156103134155273e-07,
+      "no_untradable_fills": true,
+      "nonnegative_cash": true,
+      "no_same_close_fills": true
+    },
+    "ROLL_BAYES": {
+      "quantity_error": 1.4210854715202004e-14,
+      "nav_error": 3.166496753692627e-08,
+      "no_untradable_fills": true,
+      "nonnegative_cash": true,
+      "no_same_close_fills": true
+    }
+  },
+  "no_cached_momentum_dependency": true,
+  "future_truncation_features_posterior_positions_nav": true,
+  "future_truncation_rolling_selector": true,
+  "posterior_predictive_probabilities_bounded": true
+}

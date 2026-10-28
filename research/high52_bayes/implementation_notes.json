@@ -1,0 +1,13 @@
+{
+  "recorded_after_results": true,
+  "purpose": "Disclose implementation details and protocol wording differences; does not change strategy or reported results.",
+  "rank_feature": "Actual X uses 1-2q. Initial protocol said 2q-1. With the zero symmetric independent prior on this coefficient, changing both training and prediction sign is an equivalent reparameterization; all formulas in the final report use actual code.",
+  "common_start": "Clarified before viewing new performance: first date with at least126 mature label-origin dates for every candidate, actually2009-08-07. All fixed and selective accounts use this common start and continue through evaluation boundaries. ROLL starts2017-01-02.",
+  "rolling_no_entry": "No-entry state blocks new tickers; existing holdings may still increase or decrease under last active Bayesian model. Initial protocol phrase prevent increases was broader than the implemented and pre-result clarified existing-position management.",
+  "probability_calibration": "Main probability diagnostics assess realized predictive probabilities of the development-selected H20/W1008 model on all completed, eligible top10%-nearness stock/date cases. They are not independent Bernoulli trials or only filled transactions.",
+  "closed_holding_duration": "FIFO matched sold quantities are weighted by sale notional, not by share count. Open residual holdings are excluded.",
+  "fixed_comparison": "Old fixed-horizon ledger is preserved including same-day ticker order netting and8% new-allocation capacity. Fixed entry uses floor10% of quarantined eligible count; selective entry uses rank percentile among data-qualified names before quarantine. Thus FIXED5 versus BUFFER is a practical policy comparison, not a perfect one-parameter retention ablation. BUFFER versus BUFFER_BAND and BAYES versus BAYES_NOBAND are matched band comparisons.",
+  "solver": "Certificate pertains to pre-band convex optimum. Final band and0.5bp utility hurdle are policy heuristics checked again for objective improvement.",
+  "labels": "Forward labels use marked adjusted prices and lastmark recovery convention. Terminal marks need not be executable sells when trading is suspended; live portfolio fills still require positive volume and price.",
+  "trade_timestamp": "orders decision_date is latest previous-close authorization, including reauthorized pending exits. It is not necessarily the first date that an unfilled exit was requested. Review-level decisions are stored separately."
+}

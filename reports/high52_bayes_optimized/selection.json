@@ -1,0 +1,23 @@
+{
+  "selected": {
+    "name": "B_H20_W1008_P55_S1.0_C10_L3",
+    "model": 3,
+    "p0": 0.55,
+    "strength": 1.0,
+    "cap": 0.1,
+    "lam": 3.0
+  },
+  "H": 20,
+  "W": 1008,
+  "control": "EQ_C10_L3",
+  "ensemble_sources": [
+    "B_H20_W1008_P55_S1.0_C10_L3",
+    "B_H5_W1008_P55_S1.0_C10_L3",
+    "B_H20_W1008_P50_S1.0_C10_L3"
+  ],
+  "fit_positive_qualified": false,
+  "validation_probability": 0.7524471118612688,
+  "validation_lower10_monthly": -0.0006534279749384314,
+  "uses_post2016": false,
+  "protocol_sha256": "a0182d544184d327cd50759e46acb7697c4a2c13a894cade56f128c18e0d2982"
+}

@@ -1,0 +1,66 @@
+{
+  "known_roundtrip_nav_error": 0.0,
+  "next_close_cash_scaled_execution": true,
+  "zero_volume_delays_exit": true,
+  "accounts": {
+    "MATCHED_HIGH_IV": {
+      "position_rollforward_error": 0.0,
+      "independent_nav_max_error": 2.2351741790771484e-08,
+      "no_untradable_fills": true,
+      "positive_cash": true,
+      "latest_training_return_strictly_before_signal": true
+    },
+    "MATCHED_MOM_IV": {
+      "position_rollforward_error": 0.0,
+      "independent_nav_max_error": 1.30385160446167e-08,
+      "no_untradable_fills": true,
+      "positive_cash": true,
+      "latest_training_return_strictly_before_signal": true
+    },
+    "MID_HIGH_TILT": {
+      "position_rollforward_error": 0.0,
+      "independent_nav_max_error": 9.313225746154785e-09,
+      "no_untradable_fills": true,
+      "positive_cash": true,
+      "latest_training_return_strictly_before_signal": true
+    },
+    "ROLL_HIGH_EW": {
+      "position_rollforward_error": 0.0,
+      "independent_nav_max_error": 1.1175870895385742e-08,
+      "no_untradable_fills": true,
+      "positive_cash": true,
+      "latest_training_return_strictly_before_signal": true
+    },
+    "ROLL_HIGH_WEIGHT": {
+      "position_rollforward_error": 0.0,
+      "independent_nav_max_error": 1.30385160446167e-08,
+      "no_untradable_fills": true,
+      "positive_cash": true,
+      "latest_training_return_strictly_before_signal": true
+    },
+    "ROLL_JOINT_WEIGHT": {
+      "position_rollforward_error": 0.0,
+      "independent_nav_max_error": 9.313225746154785e-09,
+      "no_untradable_fills": true,
+      "positive_cash": true,
+      "latest_training_return_strictly_before_signal": true
+    },
+    "ROLL_MOM_EW": {
+      "position_rollforward_error": 0.0,
+      "independent_nav_max_error": 1.1175870895385742e-08,
+      "no_untradable_fills": true,
+      "positive_cash": true,
+      "latest_training_return_strictly_before_signal": true
+    },
+    "ROLL_MOM_WEIGHT": {
+      "position_rollforward_error": 0.0,
+      "independent_nav_max_error": 9.313225746154785e-09,
+      "no_untradable_fills": true,
+      "positive_cash": true,
+      "latest_training_return_strictly_before_signal": true
+    }
+  },
+  "future_truncation_features_selection_orders_nav": true,
+  "midpoint_overlay_future_truncation_orders": true,
+  "input_sha256": "See data_manifest.json"
+}

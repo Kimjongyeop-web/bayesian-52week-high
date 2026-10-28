@@ -1,0 +1,12 @@
+{
+  "selected_i": 13,
+  "selected": {
+    "name": "B_H20_W1008_P60_G10.0",
+    "H": 20,
+    "W": 1008,
+    "prob": 0.6,
+    "gamma": 10.0
+  },
+  "selection_uses": "development only",
+  "uses_test": false
+}

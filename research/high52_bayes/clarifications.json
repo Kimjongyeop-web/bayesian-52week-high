@@ -1,0 +1,9 @@
+{
+  "before_new_performance_review": true,
+  "common_start": "To give controls and Bayesian candidates identical investable histories, use the first date on which every posterior has at least126 mature origin dates. Initial signal/label warm-up stays outside all strategy accounts. Actual common date is recorded in data_manifest.json, not assumed to be2009-01-09.",
+  "rank": "Rank is among data-qualified names before anomaly quarantine. Quarantine blocks new purchases/training observations, not automatic sales of incumbents. Membership/near/rank criteria still apply. Unknown current ranks due missing/untradable data lock existing quantity unless membership exit is already known.",
+  "H": "Forecast5 or20 sessions is distinct from the5-session review cadence and unconstrained actual holding time.",
+  "probability_cost": "Entry probability threshold uses first-order roundtrip cost2*(commission+execution)+sale_tax at signal date. Actual account uses exact separate monetary costs at execution dates; future tax law changes are not forecast alpha.",
+  "rolling": "When daily selector has no positive candidate, disallow new names but continue existing-position management with last active Bayesian model. All coefficients still update daily.",
+  "band": "Weight band is imposed after the convex optimum. Re-evaluate optional utility improvement after imposing band and suppress optional trades if it falls below0.5bp NAV. Mandated membership/signal/posterior exits and cap reductions can still execute. Solver gap certifies pre-band optimization, not final banded global optimality."
+}

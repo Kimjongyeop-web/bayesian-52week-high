@@ -1,0 +1,48 @@
+{
+  "numerical": {
+    "student_t_cdf_max_error": 2.5424107263916085e-14,
+    "projection_max_objective_error": 0.0
+  },
+  "rules": {
+    "uncertain_probability_reverts_to_equal_not_cash": true,
+    "no_maturity_exit": true,
+    "rank_buffer": true,
+    "untradable_exit_retries": true
+  },
+  "accounts": {
+    "OPTIMIZED": {
+      "max_nav_error": 1.1548399925231934e-07,
+      "max_quantity_error": 0.0,
+      "no_untradable_fills": true,
+      "nonnegative_cash": true,
+      "max_planned_weight": 0.1
+    },
+    "MATCHED_EQUAL": {
+      "max_nav_error": 1.1548399925231934e-07,
+      "max_quantity_error": 0.0,
+      "no_untradable_fills": true,
+      "nonnegative_cash": true,
+      "max_planned_weight": 0.1
+    },
+    "DEFAULT_EQUAL": {
+      "max_nav_error": 1.0803341865539551e-07,
+      "max_quantity_error": 0.0,
+      "no_untradable_fills": true,
+      "nonnegative_cash": true,
+      "max_planned_weight": 0.08
+    },
+    "ADAPTIVE_MIX": {
+      "max_nav_error": 1.4901161193847656e-07,
+      "max_quantity_error": 0.0,
+      "no_untradable_fills": true,
+      "nonnegative_cash": true,
+      "max_planned_weight": 0.10000000000000002
+    }
+  },
+  "causality": {
+    "truncated_features_posterior_plans_nav_match": true,
+    "monthly_setting_weights_prefix_match": true,
+    "only_completed_months": true,
+    "no_cached_momentum_dependency": true
+  }
+}

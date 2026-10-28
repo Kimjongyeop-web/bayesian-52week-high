@@ -1,0 +1,6 @@
+{
+ "daily_execution_fix":"A pending sell previously risked cancellation when an everyday review found an unknown rank due to a nontradable day. Preserve the pending reduction while the current rank is unknown, continue valuing the locked position conservatively, and retry when tradeable. Test explicitly covers this case. Valid fresh signals may otherwise change the next order.",
+ "not_future_order_fill":"Final close targets on2026-07-31 are pending intentions. No price after data end is available, so no actual execution or returns for those targets are claimed.",
+ "daily_decision_does_not_promise_zero_trade_days":"Each stock can be HOLD, but the whole account may trade most days due to different constituents crossing hard entry/exit conditions. The98% exact target also causes small cash-maintenance trades. Actual day/order counts and costs are reported, rather than claiming infrequent trading.",
+ "selection":"Parameter search uses only dates through2016. It repeats the original144-setting grid without review-phase selection. No new parameter choices are made from2017+ outcomes. All original data-quality/lastmark company-action assumptions remain visible."
+}

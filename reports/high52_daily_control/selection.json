@@ -1,0 +1,32 @@
+{
+  "selected": {
+    "name": "N88_F2_C3_B5_W100",
+    "exit_near": 0.88,
+    "exit_rank": 0.25,
+    "confirm": 2,
+    "cooldown": 3,
+    "band_abs": 0.005,
+    "band_rel": 0.2,
+    "day_limit": 0.1,
+    "window_limit": 1.0
+  },
+  "model": {
+    "name": "B_H5_W1008_P55_S0.5_C10_L3",
+    "model": 1,
+    "p0": 0.55,
+    "strength": 0.5,
+    "cap": 0.1,
+    "lam": 3.0
+  },
+  "qualified": true,
+  "fit_pass_count": 32,
+  "validation_pass_count": 29,
+  "shortlist": [
+    "N88_F3_C3_B10_W50",
+    "N88_F3_C5_B10_W50",
+    "N88_F2_C3_B5_W100",
+    "N88_F2_C5_B5_W100",
+    "N88_F3_C3_B5_W50"
+  ],
+  "uses_post2016": false
+}

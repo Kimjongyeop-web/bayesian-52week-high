@@ -1,0 +1,49 @@
+{
+  "accounts": {
+    "PREVIOUS5": {
+      "max_nav_error": 1.1548399925231934e-07,
+      "max_quantity_error": 0.0,
+      "review_days": 470,
+      "every_day_review": false,
+      "no_untradable_fills": true,
+      "nonnegative_cash": true
+    },
+    "DAILY_SAME": {
+      "max_nav_error": 2.1979212760925293e-07,
+      "max_quantity_error": 0.0,
+      "review_days": 2348,
+      "every_day_review": true,
+      "no_untradable_fills": true,
+      "nonnegative_cash": true
+    },
+    "DAILY_EQUAL": {
+      "max_nav_error": 2.1606683731079102e-07,
+      "max_quantity_error": 0.0,
+      "review_days": 2348,
+      "every_day_review": true,
+      "no_untradable_fills": true,
+      "nonnegative_cash": true
+    },
+    "DAILY_TUNED": {
+      "max_nav_error": 2.421438694000244e-07,
+      "max_quantity_error": 0.0,
+      "review_days": 2348,
+      "every_day_review": true,
+      "no_untradable_fills": true,
+      "nonnegative_cash": true
+    },
+    "TUNED_EQUAL": {
+      "max_nav_error": 2.1606683731079102e-07,
+      "max_quantity_error": 0.0,
+      "review_days": 2348,
+      "every_day_review": true,
+      "no_untradable_fills": true,
+      "nonnegative_cash": true
+    }
+  },
+  "previous5_reproduced": true,
+  "future_truncated_daily_posterior_plans_nav_match": true,
+  "midcycle_exit_next_close": true,
+  "constant_probability_holds_existing_names": true,
+  "blocked_fill_not_fabricated": true
+}

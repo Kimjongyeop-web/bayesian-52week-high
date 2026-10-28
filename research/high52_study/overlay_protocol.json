@@ -1,0 +1,7 @@
+{
+  "frozen_before_reading_performance": true,
+  "question": "Does adding the 52-week-high signal midway through an existing momentum holding improve performance?",
+  "control": "ROLL_MOM_WEIGHT exact same rolling selected entry strategy, dates and cohort maturity",
+  "treatment": "Once, at each cohort midpoint floor(H/2), redistribute that cohort among its existing names using factor0.5+cross-sectional52-week-nearness percentile. Normalize to that cohort's current market value before stock cap. Rebalance next close only; do not reset maturity, add external money, choose new names or change the momentum policy schedule. No reweight if absolute lot trade below0.05% NAV; stock new-allocation cap8%. Cash may differ due to caps, threshold and transaction costs; report exposure.",
+  "inference": "Predefined matched treatment-minus-control comparison, not a new optimized winner or a claim that arbitrary later feature additions help. Same costs and sensitivities as base."
+}

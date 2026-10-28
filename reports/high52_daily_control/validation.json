@@ -1,0 +1,30 @@
+{
+  "UNCONTROLLED": {
+    "max_nav_error": 2.421438694000244e-07,
+    "daily_review": true,
+    "account_reconciled": true,
+    "budget_reconciled": true
+  },
+  "CONTROLLED": {
+    "max_nav_error": 6.705522537231445e-08,
+    "daily_review": true,
+    "account_reconciled": true,
+    "budget_reconciled": true
+  },
+  "CONTROLLED_EQUAL": {
+    "max_nav_error": 7.078051567077637e-08,
+    "daily_review": true,
+    "account_reconciled": true,
+    "budget_reconciled": true
+  },
+  "DEFAULT_RULES": {
+    "max_nav_error": 4.842877388000488e-08,
+    "daily_review": true,
+    "account_reconciled": true,
+    "budget_reconciled": true
+  },
+  "previous_daily_baseline_reproduced": true,
+  "stop_at_2023_prefix_matches": true,
+  "posterior_causality": "Unchanged posterior; raw future-data truncation test in ../high52_daily/validation.json",
+  "confirmation_cooldown_next_close_and_emergency_exception": true
+}
